@@ -6,8 +6,8 @@ describe("converter function", () => {
         expect(camelCaseConverter(input[0])).toEqual("helloWorld");
         expect(camelCaseConverter(input[1])).toEqual("betterWorld");
         expect(camelCaseConverter(input[2])).toEqual("goodMorning");
-        expect(camelCaseConverter(input[3])).toEqual("Number45");
-        expect(camelCaseConverter(input[4])).toEqual("A");
+        expect(camelCaseConverter(input[3])).toEqual("number45");
+        expect(camelCaseConverter(input[4])).toEqual("a");
     })
 
     test("test camelCaseConverter function for invalid input", () => {
