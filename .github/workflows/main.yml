@@ -22,12 +22,7 @@ jobs:
        run:  
           npm test
           
-     - name: Build
-       uses: andstor/jsdoc-action@v1
-       with:
-        source_dir: ./src
-        recurse: true
-        output_dir: ./out 
-     
-   
+     - name: Automatic Merge
+       uses: lots0logs/gh-action-auto-merge@1.0.0
+
         
